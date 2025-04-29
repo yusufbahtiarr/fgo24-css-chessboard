@@ -1,116 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chessboard</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            /* padding: 0; */
-            /* margin: 0; */
-        }
-        div {
-            /* display: inline-block; */
-            /* border: 1px solid black; */
-        }
-        div.black {
-            display: inline-block;
-            height: 50px;
-            width: 50px;
-            background-color: black;
-            border: 1px solid black;
-        }
-        div.white {
-            display: inline-block;
-            height: 50px;
-            width: 50px;
-            background-color: white;
-            border: 1px solid black;
-        }
-
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chessboard</title>
+  <style>
+      .row {
+        display: block;
+        height: 50px;
+        font-size: 0;
+      }
+      .black, .white {
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        border: 1px solid black;
+        box-sizing: border-box;
+        /* margin: -4px; */
+      }
+      .black {
+        background-color: black;
+      }
+      .white {
+        background-color: white;
+      }
+  </style>
 </head>
 <body>
-    <div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
+  <div>
+    <div class="row">
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
     </div>
-    <div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
+    <div class="row">
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
     </div>
-    <div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
+    <div class="row">
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
     </div>
-    <div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
+    <div class="row">
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
     </div>
-    <div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
+    <div class="row">
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
     </div>
-    <div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
+    <div class="row">
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
     </div>
-    <div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
+    <div class="row">
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
     </div>
-    <div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
-        <div class="white"> </div>
-        <div class="black"> </div>
+    <div class="row">
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="white"></div>
+      <div class="black"></div>
     </div>
+  </div>
 </body>
 </html>
