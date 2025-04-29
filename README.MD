@@ -1,21 +1,31 @@
-# Project Chessboard
+# HTML CSS Example Project
 
-## Deskripsi
-Project ini merupakan latihan HTML kedua dalam membangun website. Saat ini kita membangun website chessboard dengan menerapkan element tabel. Tujuannya adalah untuk membiasakan diri dengan alur kerja pengembangan perangkat lunak.
+## Deskripsi - Project Chessboard
+Project ini merupakan latihan CSS kedua dalam membangun website. Saat ini kita membangun website chessboard dengan menerapkan display dan box model. Tujuannya adalah untuk membiasakan diri dengan alur kerja pengembangan perangkat lunak.
 
-## Teknologi yang Digunakan
-Bahasa Markup: HTML  
-Tools: Git, VS Code
 
-## Run Project
-Disini kita menggunakan NodeJS dengan tambahan dependency live-server
-kita ubah terlebih dahulu package.json
-``` 
-"scripts": {
-    "dev": "live-server"
-  }
-``` 
-Untuk menjalankan project:
+## How to run this Project
+
+1. Clone this project
+```
+git clone https://github.com/yusufbahtiarr/fgo24-css-basic.git
+```
+2. Enter the project directory
+```
+cd fgo24-css-basic
+```
+3. Install the Depedencies
+```
+npm install
+```
+4. Run the project
 ```
 npm run dev
 ```
+5. Project will running on http://localhost:8080
+
+## Dependencies
+
+This project requires Node.js to run. Please ensure Node.js is installed on your machine before proceeding.
+Require Package:
+- live-server : a simple development HTTP server with live reload capability. It is used to simulate a local server environtment for testing and development purposes.
