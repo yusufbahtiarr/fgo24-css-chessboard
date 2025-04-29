@@ -8,7 +8,7 @@ Project ini merupakan latihan CSS kedua dalam membangun website. Saat ini kita m
 
 1. Clone this project
 ```
-git clone https://github.com/yusufbahtiarr/fgo24-css-basic.git
+git clone https://github.com/yusufbahtiarr/fgo24-css-chessboard.git
 ```
 2. Enter the project directory
 ```
