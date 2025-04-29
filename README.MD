@@ -12,7 +12,7 @@ git clone https://github.com/yusufbahtiarr/fgo24-css-chessboard.git
 ```
 2. Enter the project directory
 ```
-cd fgo24-css-basic
+cd fgo24-css-chessboard
 ```
 3. Install the Depedencies
 ```
